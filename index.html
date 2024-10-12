@@ -3,13 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Naledi's Weather</title>
   </head>
   <body>
     <header>
       <form>
-        <input type="search" placeholder="Enter a city" />
-        <input type="submit" value="Search" />
+        <input type="search" placeholder="Enter a city" class="type-box" />
+        <input type="submit" value="Search" class="search-button" />
       </form>
     </header>
     <main>
@@ -18,14 +25,28 @@
         <p>
           Tuesday 14:55, Scattered clouds
           <br />
-          Humidity: 66%, Wind: 13km/h
+          Humidity: <strong>66%</strong>, Wind: <strong>13 km/h</strong>
         </p>
       </div>
-      <div>12°C</div>
+      <div>
+        <span class="icon">☀</span>
+        <span class="temperature">12</span>
+        <span class="unit">°C</span>
+      </div>
     </main>
     <footer>
-      This project was coded by Naledi Mokgotho, is open sourced on GitHub and
-      hosted on Netlify.
+      This project was coded by
+      <a href="https://github.com/naledi-creator" target="_blank">
+        Naledi Mokgotho </a
+      >, is open sourced on
+      <a
+        href="https://github.com/naledi-creator/naledi-weather-app"
+        target="_blank"
+      >
+        GitHub</a
+      >
+      and hosted on
+      <a href="https://naledi-weather.netlify.app/" target="_blank">Netlify</a>.
     </footer>
   </body>
 </html>
