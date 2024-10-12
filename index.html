@@ -10,11 +10,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Naledi's Weather</title>
   </head>
   <body>
     <header>
-      <form>
+      <form id="search-form">
         <input type="search" placeholder="Enter a city" class="type-box" />
         <input type="submit" value="Search" class="search-button" />
       </form>
@@ -48,5 +49,6 @@
       and hosted on
       <a href="https://naledi-weather.netlify.app/" target="_blank">Netlify</a>.
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
