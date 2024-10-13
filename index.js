@@ -13,7 +13,7 @@ function reloadWeather(response) {
   let descriptionElement = document.querySelector("#weather-description");
   let humidityElement = document.querySelector("#humidity");
   let windSpeedElement = document.querySelector("#wind");
-  let date = new Date(response.date.time * 1000);
+  let date = new Date(response.data.time * 1000);
   let timeElement = document.querySelector("#time");
   let iconElement = document.querySelector(".icon");
 
