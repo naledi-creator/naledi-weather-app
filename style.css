@@ -1,5 +1,5 @@
 html {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/289/original/weather.jpg?1728812586");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/665/original/pexels-pixabay-268917.jpg?1729093801");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,7 +32,7 @@ p {
   line-height: 20px;
 }
 p strong {
-  color: #f65282;
+  color: #5585b5;
 }
 footer {
   border-top: 1px solid #faf7fe;
@@ -42,7 +42,7 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 a {
-  color: #885df1;
+  color: #385170;
 }
 .type-box {
   background-color: #faf7fe;
@@ -53,7 +53,7 @@ a {
   font-size: 16px;
 }
 .search-button {
-  background: #885df1;
+  background: #385170;
   padding: 15px 30px;
   border: none;
   border-radius: 6px;
@@ -64,7 +64,7 @@ a {
 }
 .search-button:hover {
   background: #fff;
-  color: #885df1;
+  color: #385170;
   cursor: pointer;
 }
 .temperature {
@@ -97,7 +97,7 @@ a {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #5585b5;
   display: flex;
   justify-content: center;
 }
